@@ -8,8 +8,24 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/public/$1"
+      "src": "/",
+      "dest": "/public/home.html"
+    },
+    {
+      "src": "/gallery.html",
+      "dest": "/public/gallery.html"
+    },
+    {
+      "src": "/about.html",
+      "dest": "/public/about.html"
+    },
+    {
+      "src": "/contact.html",
+      "dest": "/public/contact.html"
+    },
+    {
+      "src": "/wall9.jpg",
+      "dest": "/public/wall9.jpg"
     }
   ]
 }
